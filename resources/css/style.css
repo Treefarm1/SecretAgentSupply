@@ -1,0 +1,192 @@
+body {
+  font-size: 18px;
+  font-family: helvetica;
+}
+
+.banner {
+  display: flex;
+  border: 1px solid yellow;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.contianer {
+  display: flex;
+  border: 1px solid purple;
+  width: 960px;
+  height: auto;
+  margin: 0;
+}
+
+.banner .contianer {
+  align-items: center;
+}
+
+header img {
+  display: flex;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  border: 1px solid blue;
+  width: auto;
+}
+
+header span {
+  display: flex;
+  margin: 0;
+  padding: .66rem 0 .66rem 1rem;
+  color: white;
+  border: 1px solid green;
+  align-items: center;
+}
+
+
+/* Motorcycle background image and flex boxes*/
+
+.motorcylce_background {
+  display: flex;
+  background-image: url("../images/moto.jpg");
+  background-repeat: no-repeat;
+  justify-content: center;
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+  width: auto;
+}
+
+.motorcylce_flexbox {
+  margin-top: 9rem;
+  border: 1px solid red;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 2rem 3rem;
+  width: 20rem;
+  margin-bottom: auto;
+}
+
+.motorcylce_flexbox h4 {
+  font-size: 1rem;
+}
+
+.motorcylce_flexbox h1 {
+  font-size: 2rem;
+  padding-top: .25rem;
+}
+
+
+/* Menu Bar */
+
+.menu_bar {
+  display: flex;
+  justify-content: center;
+  background-color: firebrick;
+  border: 1px solid green;
+  padding: .75rem 0;
+  width: 100%;
+}
+
+.menu_bar nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: white;
+  border: 1px solid blue;
+}
+
+.menu_bar span {
+  border: 1px solid yellow;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+
+
+/* Spy Equipment*/
+
+.spy_equipment {
+  display: flex;
+  justify-content: center;
+  border: 1px solid yellow;
+}
+
+.spy_equipment .contianer {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid blue;
+}
+
+.spy_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  width: 30%;
+  margin: 3rem 0;
+
+}
+
+.spy_item img {
+  display: flex;
+  border: 1px solid purple;
+  max-height: 9rem;
+  max-width: 12rem;
+  padding: 2rem 0;
+  margin: auto;
+
+}
+
+.spy_item h4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green;
+  background-color: black;
+  color: white;
+  padding: .5rem 0;
+  width: 100%;
+}
+
+/* location and hours */
+
+.location_hours {
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+  padding-bottom: 4rem;
+
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid brown;
+  width: 50%;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid brown;
+  width: 50%;
+}
+
+.location_hours h4 {
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  width: 70%;
+  border: 1px solid green;
+}
+
+/* Copywrite */
+
+.copywrite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+}
