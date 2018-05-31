@@ -125,7 +125,7 @@ header span {
   .large_screen span {
     display: none;
   }
-  .mobile span {
+  .mobile {
     display: flex;
     justify-content: center;
   }
