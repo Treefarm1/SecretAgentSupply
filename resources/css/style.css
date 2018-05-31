@@ -125,9 +125,11 @@ header span {
   .large_screen span {
     display: none;
   }
-  .mobile {
-    display: block;
+  .mobile span {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    align-content: center;
     width: 100%;
   }
 }
