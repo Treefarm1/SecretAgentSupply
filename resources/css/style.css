@@ -126,9 +126,8 @@ header span {
     display: none;
   }
   .mobile {
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    display: block;
+    text-align: 
   }
 }
 
