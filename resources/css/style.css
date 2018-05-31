@@ -127,7 +127,8 @@ header span {
   }
   .mobile {
     display: block;
-    text-align: center;
+    align-items: center;
+    width: 100%;
   }
 }
 
