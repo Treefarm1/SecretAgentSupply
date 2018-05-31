@@ -122,13 +122,13 @@ header span {
 }
 
 @media only screen and (max-width: 1024px) {
-  .large_screen span {
+  .large_screen nav {
     display: none;
   }
   .mobile {
     display: flex;
     justify-content: center;
-    
+
   }
 }
 
